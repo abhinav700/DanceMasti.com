@@ -1,0 +1,35 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /* overflow-x: hidden; */
+  }
+ 
+.contact-us{
+     height: 125vh;
+     background-color: black;
+     color:white;
+     overflow-x:hidden;
+ }
+
+ .contact-us form{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     left:23%
+     
+ }
+ .contact-us input,textarea{
+     width:50%;
+     margin-bottom: 2rem;
+     border-radius: 9px;
+
+ }
+ .heading{
+     text-align: center;
+     font-size:3rem ;
+     padding-bottom: 1rem;
+     margin-bottom: 3.5rem;
+     position: relative;
+     top:4%;
+    
+ }

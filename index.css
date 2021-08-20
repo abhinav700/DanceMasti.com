@@ -1,0 +1,236 @@
+* {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  /* overflow-x: hidden; */
+}
+.container{
+  overflow-x: hidden;
+  background-color: black;
+  
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(221, 217, 217);
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  font-style: italic;
+  font-family: "Marck Script", cursive;
+  position: sticky;
+}
+
+/* Editing the Navigation Bar */
+.nav-bar {
+  position:sticky;
+  background-color: rgb(97, 95, 95);
+  margin-top: 0px;
+  height:auto;
+  width:100%;
+  top:0%;
+  bottom:0%;
+  z-index: 2;
+  overflow-x:visible ;
+  padding-bottom: 1rem;
+
+}
+ 
+
+   
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 0.5rem;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.nav-bar li {
+  list-style: none;
+  margin-top: 1rem;
+
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  color: blanchedalmond;
+  cursor: pointer;
+}
+.nav-bar a:hover {
+  color: rgb(255, 216, 166);
+  text-decoration: underline;
+}
+
+/* Edtiting the introduction section */
+
+.intro {
+  background-color: rgb(0, 0, 0);
+  height: auto;
+  width: 100%;
+}
+.intro h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top:3.5rem;
+  padding-bottom: 2rem;
+  
+  text-decoration: underline rgb(172, 169, 169);
+  color: rgb(255, 255, 234);
+}
+
+.intro-content {
+  width: 100%;
+  text-align: left;
+  margin: auto;
+  font-size: 1.6rem;
+  padding: 1rem 1rem;
+  height: auto;
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row li {
+  list-style: none;
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  color: rgb(168, 154, 129);
+}
+.row li:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  transition: 0.8s;
+  transition-property:background-color;
+}
+.row ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.mini-services{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap  ; */
+  
+}
+.mini{
+  
+  color:rgb(20, 14, 14);
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  margin:5rem;
+  height: inherit;
+  text-align: center;
+}
+/* STyling the services section */
+.our-services{
+  height:auto;
+  background-color: rgb(0, 0, 0);
+  color:white;
+  width: 100%;
+  
+}
+.our-services h1{
+  color:rgb(226, 223, 223);
+  text-align: center;
+  font-size: 4rem;
+  text-decoration:underline;
+  margin-bottom: 2rem;
+}
+
+.our-services ul li {
+   
+ font-size: 2rem;
+  text-decoration: underline;
+  list-style: disc;
+  padding: 1rem ;
+}
+.our-services ul {
+  left:13%;
+  position:relative;
+}
+.para{
+  font-size: 1.5rem;
+   margin-left:17.5%;
+   /* position: relative; */
+   text-align: left;
+   margin-right:18%;
+      
+}
+.service{
+  margin-left:2rem;
+  width:100%;
+}
+/* white-space : pre - line ; */
+
+/* Editing the Registration section */
+.register{
+  height:120vh;
+  color:white
+}
+
+.register form{
+  margin:2rem;
+}
+
+.register h1{
+  color:rgb(255, 255, 255);
+  padding:2rem;
+  text-align: center;
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  justify-content: center;
+  position: relative;
+  left:20%;
+
+}
+.input input{
+  padding:0.5rem;
+  margin:1rem;
+  width: 50%;
+  color: black;
+  border-radius: 7px;
+}
+button{
+  background-color: rgb(24, 20, 20);
+  color:white;
+  width:30%;
+  position: relative;
+  left:11%;
+  padding: 0.5rem;
+  outline: none;
+  border:2px solid white;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+button:hover{
+  background-color:rgb(97, 92, 83);
+  cursor:pointer;
+  border:2px solid black;
+  color:black;
+}
+
+footer{
+  height: 4vh;
+  color:white;
+  background-color: rgb(46, 45, 45);
+  text-align: center;
+  padding:0.5rem
+}
+ 

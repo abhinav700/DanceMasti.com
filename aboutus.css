@@ -1,0 +1,69 @@
+.about {
+  /* height: 105vh; */
+  width: 100%;
+  /* font-size: 2rem; */
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.tech {
+  font-size: 3rem;
+  text-decoration: underline;
+  /* margin-top: 5rem; */
+}
+.about p {
+  padding: 4rem 1rem;
+}
+
+.fa {
+  padding: 10px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 80px;
+  width: 27px;
+  height: 20px;
+  border-radius: 8px;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin:before {
+  content: "\f0e1";
+  font-size: 20px;
+}
+.fa-instagram:before {
+  content: "\f0e1";
+  font-size: 22px;
+}
+
+.fa-instagram {
+  background: #774562;
+  color: white;
+  font-size: 73px;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+footer {
+  position: relative;
+  bottom: 0%;
+}
+
+.icon {
+  margin: auto 0.5rem;
+}
+img {
+  width: 3rem;
+  display: inline;
+  height: auto;
+  position: relative;
+  top: 25%;
+}
+img:hover{
+  opacity:0.9;
+}
