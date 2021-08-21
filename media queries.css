@@ -155,21 +155,21 @@
     height: 15vh;
   }
 }
-@media screen and (max-width:1800px)  and (min-width: 560px) {
-  .our-services ul li {
-    font-size: 2rem;
-    padding: 2rem;
+  @media screen and (max-width:1800px)  and (min-width: 560px) {
+    .our-services ul li {
+      font-size: 2rem;
+      padding: 2rem;
 
+    }
   }
-}
-@media screen and (max-width: 559x) {
-  .our-services ul li{
-    font-size: 1.8rem;
-    padding-left: 0rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  @media screen and (max-width: 559px) {
+    .our-services ul li{
+      font-size: 1.8rem;
+      padding-left: 0rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
   }
-}
 @media screen and (min-width: 460px) {
   .about {
     font-size: 2rem;
