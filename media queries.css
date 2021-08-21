@@ -161,13 +161,19 @@
       padding: 2rem;
 
     }
+    .para{
+      font-size: 1.5rem;
+    }
   }
   @media screen and (max-width: 559px) {
     .our-services ul li{
-      font-size: 1.8rem;
+      font-size: 25px;
       padding-left: 0rem;
       padding-top: 2rem;
       padding-bottom: 2rem;
+    }
+    .para{
+      font-size: 1.5rem;
     }
   }
 @media screen and (min-width: 460px) {
