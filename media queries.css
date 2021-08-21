@@ -155,7 +155,7 @@
     height: 15vh;
   }
 }
-@media screen and (max-width:1800px)  and (min-width: 399x) {
+@media screen and (max-width:1800px)  and (min-width: 399px) {
   .our-services ul li {
     font-size: 2rem;
     padding: 2rem;
